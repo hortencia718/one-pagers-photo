@@ -1,5 +1,5 @@
 body { 
-	font-family: "Arial ",Arial, veranda;
+	font-family: "Helvetica Neue",Arial,sans-serif;
 	font-size: 1rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -141,6 +141,15 @@ table.table-content img {
   color: #07aeda;
   text-decoration: none;
 }
+/* using backgound images */
+#csscoverbackgroundimages.cssBackgroundImages
+  background-image: url(../img/img-program);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #000;
+  padding: 25px;
+
 
 /* Footer HTML5 */
 footer {
