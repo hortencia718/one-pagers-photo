@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+color: voilet;
+}
+h1 {
+color: gray;
+}
+h2 {
+text-align; left;
+
+}
+
+}
+</style>
+</head>
+<body>
+
+<h1>hortencia cisneros</h1>
+<h2>photography</h2>
+
+<ul>
+<li><a> href="#Travel">travel</a></li>
+<li><a> href="#Food">Food</a></li>
+<li><a> href="#contact">contact</a></li>
+<li><a> href="#home">home</a></li>
+<li><a> href="#Stills">Stills</a></li>
+</ul>
+
+<hr>
+<div
+<div id="gallery" class-"galleryimages">
+<div id=gallerycontainer" class="clear">
+</div>
+<div class=images-details">
+</div>
+<div class=images-details">
+</div>
+<div class=images-details">
+</div>
+<div class=images-details">
+</div>
+<div class=images-details">
+</div>
+<div class=images-details">
+</div>
+<img src="img/
+
