@@ -1,119 +1,144 @@
-html{
-  display: block;
-}
-head {
-   display: none
-}
-title {
-display: none;
 
-}
-body {
-  font-family: 'Raleway', sans-serif,
- 'Noto Sans',sans-serif,
- 'Muli', sans-serif;
-  font-size: 1rem;
+
+
+    
+body { 
+	font-family: "Helvetica Neue",Arial,sans-serif,veranda;
+	font-size: 1rem;
   word-wrap: break-word;
   overflow-wrap: break-word;
-}
-body{
-  display:block;
-  margin: 8px;
-}
- div {
-   display: block;
- }
-#nav {
- display: block; 
- position:relative;
- margin-bottom: 40px;
- color:#000;
-}
-.clear {
-  overflow: auto;
-}
-#nav .logo {
-  float: left;
-}
-img {
-  display: block;
-}
+  background-color:rgb(250, 250, 250)
+  }
 
-/* style for nav bar*/
-#nav .nav-list {
+/* Style for Nav Bar */
+
+ .topnav a {
   float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px
+  color: #373a3c;
+ }
+
+  #nav .logo {
+    float: left;
+  }
+
+ /*.nav-list {
+	float: right; 
   font-weight: bold;
   font-size: 16px;
 }
-.navbar {
+.nav .nav-list a{
+	color: #110101;
+}
+
+ .nav ul {
+   display: block;
+   text-align:right;
+	 margin: 15% 0 0 0;
+}
+.navbar li {
   font-size: 16px;
-  display: inline
-  margin-right: 23px;
-}
-ul.navbar {
-  text-align: right;
-  margin: 15% 0 0 0;
-}
-#nav .nav-list a {
-  color:blue;
-}
-.navbar a {
-  float:left;
-  font-size: 16px;
-  color: #000;
-  text-align: left
   display: inline;
-  text-decoration: navbar;
-}
-.container p {
-  color: #000;
-  font-size: 36px;
-  margin: 50px 0;
-}
+  margin-right: 23px;
+} blocked out nav bar changed simplier.
+*/ 
 
-body,html {
-  height: 100%;
-  margin: 0;
-  font-family: Raleway, sans-serif,
- 'Noto Sans',sans-serif,
- 'Muli', sans-serif;
-}
+/*Introduction banner box */
 
-
-  .container {
-position: relative;
-text-align: center;
-color: white;
-  }
-
-/* style the top navigation bar */
-.hero-image {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),img("2949.jpg");
-  height: 40%;
+.hero-image {  
+  background-image: url(../img/food/clams.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 700px;
   position: relative;
+ 
 }
-/* centered text */
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.hero-text h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+  text-align: bottom;
+	color: rgb(30, 105, 139);
+}
+/*
+.hero p {
+	font-size: 22px;
+	color: rgb(12, 18, 94);
+	font-weight: 200;
+  text-align: left;*/
+
+
+
+#about me {
+font-size: 16px;
+color:rgba(7, 2, 4, 0.945);
+font-family: veranda;
+}
+
+
+.h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color:#000;
+  text-align: right;
+}
+
+.Portfolio {
+ text-align: center;
+ font-family: veranda;
+ color:#373a3c;
+ } 
+
+
+/* five image-containers*/
+.gallery {
+  margin: 10px 40px;
+}
+/* clear floats after .image-containers*/
+.gallery img {
+  transition: 1s;
+  padding: 15px;
+  width:200px;
+}
+
+.recent work {
+text-align: center;
+font-family: Arial;
+color: rgb(245, 231, 231);
+}
+
+.recent-text {
+  text-align:center;
   color: white;
 }
+.img-circle {
+  border-radius: 50%;
+  padding: 15px;
+  }
 
-.row-box {
-  position:relative;
-  display: block;
-  width: 100%;
-  clear: left
+
+/* footer html5 */
+footer {
+  color:rgb(20, 18, 18);
+  text-align: center;
+  font-family: Helvetica Neue;
 }
-.col {
-  float: left;
-  width: 50%;
+
+
+
+@media (max-width: 720px) {
+	.banner h1 {
+		font-size: 32px;
+		transition: font 3s ease;
+	}
 }
-
-
+@media (min-width: 960px) {
+	.banner h1 {
+		font-size: 60px;
+		transition: font 5s ease;
+	}
+}
