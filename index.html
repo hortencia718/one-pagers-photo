@@ -1,63 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title> photography website</title>
+	<meta charset="UFT" -8 ">
+	  <meta content="width=device-width, initial-scale=1 " name="viewport ">  
+    <meta name="viewport " content="width=device-width, initial-scale=1, shrink-to-fit=no ">
+	<title>Photography website</title>
 	<!--title appears in browser tab-->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="path/to/lightbox.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet " href="bootstrap/css/bootstrap.min.css ">
+   <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
+
+    <link rel="stylesheet " href="https://use.fontawesome.com/releases/v5.8.1/css/all.css " integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf
+	 " crossorigin="anonymous ">
+
+	  <link href="https://fonts.googleapis.com/css?family=Open+Sans " rel="stylesheet ">
+
+     <link href="lightbox/css/lightbox.css " rel="stylesheet ">
+
+    	<link rel="stylesheet "type="text/css " href="css/style.css ">
   <!-- Add icon library -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
- <script src="script.js"></script>
 </head>
 
 
 <body id="home">
-	<!-- home page-->
-	<!---HTML lives here-->
-	<!--site content-->
-	<div class="main content"></div>
+	<body><!--site body-->
+  <div class="main-content container-fluid">
 
-	<!-- logophoto -->
-	
-		<div id="logo" class="logoname">
-				<img src="img/logonew.jpg" alt="hortencia logo"> 
-        </a>
-      </div>
-      <!--end: logo-->
+    <div id="nav-menu" class="">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="img/logonew.jpg" alt="hortencia logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="food.html">Food</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portraits.html">Portraits</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="travel.html">travel</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    </div>
+  <div id="hero" class="hero-image ">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+      <h1 class="display-1">Welcome</h1>
+      <p class="lead"></p>
+    </div>
+  </div>
+  </div>
 
-      
-        <!--menu-->
-      <div class="responsive-nav has -social">
-      </div>
-      <!-- unorded list-->
-        	
-        
-        <div class="navbar">
-          
-        <a href="#">Food</a>
-        <a href="#">Travel</a>
-        <a href="#">Portraits</a>
-        <a href="#">contact</a>
-        
-      </div>
-      <!--end nav-list-->
-      <!--site navbar-->
-		</div>
-           <!-- hero container words-->
-      <div id="hero" class="hero-image">
-        <!--
-        <div ="class hero text float">
-        </div> -->
-      </div>
-      <!--end hero-->
-    
+  <div class="protfolio">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-12">
+        <a href="img/portraits/horses.jpg"><img src="img/portraits/horses.jpg" class"img-fluid" alt="horses"></a>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+       <a href="img/food/vegonblue.jpg">
+         <img src="img/food/vegonblue.jpg" class="img-fluid" alt="beets"></a>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+       <a href="img/food/honeycomb.jpg">
+         <img src="img/food/honeycomb.jpg" class="img-fluid" alt="honey"></a>
+     </div>
+     <div class="col-lg-3 col-md-6 col-sm-12">
+       <a href="img/travel/india.jpg">
+         <img src="img/travel/india.jpg" class="img-fluid" alt="taj mahal"></a>
+       </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+         <a href="img/food/garlic.jpg"><img src="img/food/garlic.jpg" class="img-fluid" alt="grapes"></a> 
+     </div>
+  </div>
+</div>
+  </div>
+  <br>
      <!--about me -->
-      <div id="aboutme" class=" about me container">
-        <h3>a little about me</h3> 
+      <div id="aboutme" class="aboutme container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>a little about me</h3>
         <img src="img/abme.jpg" alt="about me">
         </div>
         <div class="aboutTXT">
@@ -69,72 +103,57 @@
      </div>
    </div><!--end: aboutme-->
 
-         <!-- lightbox portfolio starts here with links to pages-->
-
-        <div class="portfolio">
-      <h2>Portfolio</h2>
-       <div class="lightbox">
-        <a href="img/portraits/horses.jpg"><img src="img/portraits/horses.jpg" alt="horses"></a>
-      
-       <a href="img/food/vegonblue.jpg">
-         <img src="img/food/vegonblue.jpg" alt="beets"></a>
-         
-        <a href="img/travel/india.jpg">
-         <img src="img/travel/india.jpg" alt="taj mahal"></a>
-
-        <a href="img/food/honeycomb.jpg">
-         <img src="img/food/honeycomb.jpg" alt="honey"></a>
-
-         <a href="img/food/garlic.jpg"><img src="img/food/garlic.jpg" alt="garlic"></a> 
-       </div>
-   </div><!--end lightbox portfolio-->
-
-  <!-- recent work make round photos-->
- <div class="recent work circle-container"></div>
-   <div class="Recent work TXT center"></div>
-           <h3>Recent work</h3>
-
-
 <!-- begin round images recent work with links to pages-->
- <div class="circle-container">
+ <div class="circle-container container-fluid">
+   <h3> Recent work</h3>
+   <div class="row">
+<div class="col-lg-4">
    <a href="food.html">
    <img class="img-circle" src="img/food/743.jpg" alt="spoons"></a>
+</div>
+<div class="col-lg-4">
    <a href="travel.html">
    <img class="img-circle" src="img/travel/travelvet.jpg" alt="travel"></a>
+</div>
+<div class="col-lg-4">
    <a href="portraits.html">
 		 <img class="img-circle" src="img/portraits/oldman.jpg" alt="oldman"></a>
+</div>
    </div>
+ </div>
  <!-- end circle images--->
    
-    
 
-
-
-     <!-- Add font awesome icons -->
-     <div class="footer-inner-icons"></div>
-     <div class="social-media">
-         <a href="#"class=""><i class="fab fa-twitter"></i></a>  
-         <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-pinterest"></i>
-       <span><i class="fab fa-instagram"></i></span>
-     </div>
-
-
+ <!-- social media icons-->
+<footer class="footer">
+  <div class="social-media">
+    <a href="#"><i class="fab fa-twitter"></i></a>    
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fas fa-camera-retro"></i></a>
+  </div>
+  <!-- footer-->
+  <!--copyright footer-->
+  <p>Copyright &copy; 2019</p>
+  <a href="tel:212-123-4567">212-123-4567</h5>
+</footer>
+                    
 
 
 	 <!-- close main content-->
+    <!--lightbox javascript-->
 
-   <!--footer information-->
-      <footer class="footer">  
- <i class="far fa-envelope-open-text"></i>  
-    <p>Copyright &copy;&nbsp;2019</p>
-      </footer>
-
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+ <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
 <script src="lightbox/js/lightbox.min.js"></script>
+
+  <script src="path/to/lightbox.js"></script>
+  <script src="script.js"></script>
+
+
+
+
 
 </body>
 </html>

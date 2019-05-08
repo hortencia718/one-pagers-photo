@@ -12,51 +12,60 @@ body {
 
 /* Style for Nav Bar */
 
- .topnav a {
-  float: right;
-  display: block;
+ .nav {
+   margin:0;
+  padding:0;
+  position: relative;
+  list-style-type: none;
   text-align: center;
-  padding: 14px 16px
   color: #373a3c;
  }
 
-  #nav .logo {
+ .clear,clearfix {
+   overflow: auto;
+ }
+
+  .nav .logo {
     float: left;
   }
+  
 
- /*.nav-list {
+  .nav-list {
 	float: right; 
   font-weight: bold;
   font-size: 16px;
 }
-.nav .nav-list a{
-	color: #110101;
+
+ .nav a  {
+   color:#000;
+   display: inline-block;
+   padding: 0.5em 0.75em;
+   text-decoration: none;
+	 margin: 15% 0 0 0;
+   border-radius: 4px;
 }
 
- .nav ul {
-   display: block;
-   text-align:right;
-	 margin: 15% 0 0 0;
-}
 .navbar li {
   font-size: 16px;
-  display: inline;
+  display: inline-block ;
   margin-right: 23px;
-} blocked out nav bar changed simplier.
-*/ 
+}
 
-/*Introduction banner box */
+
+/*Introduction .hero-image */
 
 .hero-image {  
   background-image: url(../img/food/clams.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
   position: relative;
  
 }
-
+#hero .jumbotron {
+  background-color:transparent;
+  padding:20%;
+}
 .hero-text h2 {
 	font-size: 40px;
 	text-transform: uppercase;
@@ -93,16 +102,13 @@ font-family: veranda;
  color:#373a3c;
  } 
 
-
-/* five image-containers*/
-.gallery {
-  margin: 10px 40px;
-}
+/*image-containers*/
 /* clear floats after .image-containers*/
-.gallery img {
+.image-container {
   transition: 1s;
   padding: 15px;
   width:200px;
+  margin:5px 20px;
 }
 
 .recent work {
@@ -128,7 +134,11 @@ footer {
   font-family: Helvetica Neue;
 }
 
-
+footer .social-media a {
+  font-size: 20px;
+  color: black;
+  padding-right: 1%;
+}
 
 @media (max-width: 720px) {
 	.banner h1 {
@@ -140,5 +150,40 @@ footer {
 	.banner h1 {
 		font-size: 60px;
 		transition: font 5s ease;
-	}
+  }
+  }
+  /*
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+*/
+@media (min-width: 576px) {
+   .container, .container {
+ background-color: rgb(253, 252, 252);
+ }
+}
+/*
+// Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px) {
+.container, .container-fluid {
+background-color: rgb(255, 255, 255);
+ }
+}
+/*
+// Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px) { 
+.container, .container-fluid { 
+background-color: rgb(127, 180, 201);
+}
+}
+/*
+// Extra large devices (large desktops, 1200px and up)
+*/
+@media (min-width: 1200px) { 
+container, .container-fluid {
+ background-color: rgb(255, 255, 255);
+}
 }
