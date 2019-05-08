@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<meta charset="UFT" -8 ">
+	<meta charset="UTF-8">
 	  <meta content="width=device-width, initial-scale=1 " name="viewport ">  
     <meta name="viewport " content="width=device-width, initial-scale=1, shrink-to-fit=no ">
 	<title>Photography website</title>
@@ -10,14 +10,15 @@
     <link rel="stylesheet " href="bootstrap/css/bootstrap.min.css ">
    <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
 
-    <link rel="stylesheet " href="https://use.fontawesome.com/releases/v5.8.1/css/all.css " integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf
-	 " crossorigin="anonymous ">
+    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css " integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf
+	 " crossorigin="anonymous">
 
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans " rel="stylesheet ">
 
      <link href="lightbox/css/lightbox.css " rel="stylesheet ">
 
     	<link rel="stylesheet "type="text/css " href="css/style.css ">
+
   <!-- Add icon library -->
 </head>
 
@@ -26,9 +27,9 @@
 	<body><!--site body-->
   <div class="main-content container-fluid">
 
-    <div id="nav-menu" class="">
+    <div id="nav-menu" class="container-fluid">
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html"><img src="img/logonew.jpg" alt="hortencia logo"></a>
+  <a class="navbar-brand" href="index.html"><img src="img/logonew.png" alt="hortencia logo"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -55,67 +56,67 @@
     </div>
   <div id="hero" class="hero-image ">
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-      <h1 class="display-1">Welcome</h1>
+      <div class="container-fluid">
+      <h1 class="display-2">Welcome</h1>
       <p class="lead"></p>
     </div>
   </div>
   </div>
-
-  <div class="protfolio">
+<div class="portfolio">
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-3 col-md-6 col-sm-12">
-        <a href="img/portraits/horses.jpg"><img src="img/portraits/horses.jpg" class"img-fluid" alt="horses"></a>
+    <div class="col-sm">
+        <a href="img/portraits/horses.jpg" data-lightbox="portfolio"><img src="img/portraits/horses.jpg" class="img-fluid mx-auto d-block" alt="horses"></a>
     </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-       <a href="img/food/vegonblue.jpg">
-         <img src="img/food/vegonblue.jpg" class="img-fluid" alt="beets"></a>
+    <div class="col-sm">
+       <a href="img/food/vegonblue.jpg" data-lightbox="portfolio">
+         <img src="img/food/vegonblue.jpg" class="img-fluid mx-auto d-block" alt="beets"></a>
     </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-       <a href="img/food/honeycomb.jpg">
-         <img src="img/food/honeycomb.jpg" class="img-fluid" alt="honey"></a>
+    <div class="col-sm">
+       <a href="img/food/honeycomb.jpg" data-lightbox="portfolio">
+         <img src="img/food/honeycomb.jpg" class="img-fluid mx-auto d-block" alt="honey"></a>
      </div>
-     <div class="col-lg-3 col-md-6 col-sm-12">
-       <a href="img/travel/india.jpg">
-         <img src="img/travel/india.jpg" class="img-fluid" alt="taj mahal"></a>
+     <div class="col-sm">
+       <a href="img/travel/india.jpg" data-lightbox="portfolio">
+         <img src="img/travel/india.jpg" class="img-fluid mx-auto d-block" alt="taj mahal"></a>
        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-         <a href="img/food/garlic.jpg"><img src="img/food/garlic.jpg" class="img-fluid" alt="grapes"></a> 
+        <div class="col-sm">
+         <a href="img/food/garlic.jpg" data-lightbox="portfolio"><img src="img/food/garlic.jpg" class="img-fluid mx-auto d-block" alt="grapes"></a> 
      </div>
   </div>
 </div>
   </div>
-  <br>
+  
      <!--about me -->
-      <div id="aboutme" class="aboutme container">
-        <div class="row">
-          <div class="col-md-12">
+      <div id="aboutme" class="container-fluid">
+         <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <h3>a little about me</h3>
-        <img src="img/abme.jpg" alt="about me">
+        <img src="img/abme.jpg" class="img-fluid" alt="about me">
         </div>
-        <div class="aboutTXT">
+        <div class="col-sm-12 col-md-6 col-lg-6">
          <p>
            I won't take you to lunch at Four Seasons or Wolfgang's because am vegan.
  am a lo key shooter with an eye like Avedon. I've been published in vogue, Food&Wine, Bon appetit, Id, Martha Steward living , allure, Nat geo, nytimes Style section, The Wall Street Journal to name a few.
        </p>
       </div>
      </div>
-   </div><!--end: aboutme-->
+   </div><!--row---->
+          <!--container-fluid-->
 
 <!-- begin round images recent work with links to pages-->
  <div class="circle-container container-fluid">
    <h3> Recent work</h3>
    <div class="row">
-<div class="col-lg-4">
+<div class="col-lg-4 col-md-6 col-sm-10">
    <a href="food.html">
    <img class="img-circle" src="img/food/743.jpg" alt="spoons"></a>
 </div>
-<div class="col-lg-4">
+<div class="col-lg-4 col-md-6 col-sm-10">
    <a href="travel.html">
    <img class="img-circle" src="img/travel/travelvet.jpg" alt="travel"></a>
 </div>
-<div class="col-lg-4">
+<div class="col-lg-4 col-md-6 col-sm-10">
    <a href="portraits.html">
 		 <img class="img-circle" src="img/portraits/oldman.jpg" alt="oldman"></a>
 </div>
